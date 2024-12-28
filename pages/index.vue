@@ -1,0 +1,4 @@
+<template>
+   
+   <Vbind></Vbind>
+</template>
