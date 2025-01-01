@@ -4,7 +4,5 @@
 </script>
 
 <template>
-   
-   <Vbind></Vbind>
-   <RankCPart1/>
+   <RankCPart3/>
 </template>
