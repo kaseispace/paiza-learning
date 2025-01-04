@@ -13,7 +13,7 @@ const lines = [
   }
   console.log(result.join(' '));
 
-// 文字列の出現率
+// 文字列の出現率1
 const m = ['apple', 'banana', 'apple']
 let output = '';
 const fre = m.reduce((acc, cur) => {
@@ -33,4 +33,32 @@ for(const [key, value] of sortedEntries) {
     output += `${key} ${value}\n`
 }
 console.log(output.trim())
+
+// 文字列の出現率2(自分で無理なく書ける)
+const lines2 = [
+    '5',
+    'bcd',
+    'abc',
+    'bcd',
+    'bcd',
+    'bcd',
+]
+lines2.shift();
+lines2.sort();
+const s = new Map();
+  
+  for(let i = 0; i < lines2.length; i++) {
+      switch (s.has(lines2[i])) {
+          case false:
+              s.set(lines2[i], 1);
+              break;
+          case true:
+               s.set(lines2[i], s.get(lines2[i]) + 1);
+              break;
+      }
+  }
+  
+  for(const [key, value] of s) {
+       console.log(key, value);
+  }
 </script>
