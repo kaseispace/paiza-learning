@@ -16,4 +16,6 @@ for(let i = 2; i < lines.length -1; i++) {
     result[parseInt(n) - 1] = c;
 }
 console.log(result.join(''));
+
+
 </script>
