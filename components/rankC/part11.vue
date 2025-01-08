@@ -30,4 +30,12 @@ for(let i = 0; i < q; i++) {
 }
 
 a.forEach(num => console.log(num));
+
+const x = 10;
+const y = 3;
+console.log(x >= 10 && !(y >= 10) ? 'YES' : 'NO');
 </script>
+
+<template>
+    <div/>
+ </template>

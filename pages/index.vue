@@ -4,5 +4,5 @@
 </script>
 
 <template>
-   <RankCPart6/>
+   <RankCPart11/>
 </template>
