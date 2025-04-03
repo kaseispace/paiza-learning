@@ -16,7 +16,6 @@ const q = Number(lines[2]);
 const binarySearch = (arr: number[], target: number) => {
     let low = 0;
     let high = arr.length - 1;
-    let success = 0;
     
     while(low <= high) {
         const mid = Math.floor((low + high) / 2);
@@ -28,7 +27,11 @@ const binarySearch = (arr: number[], target: number) => {
         }
     }
     
+    // target以上の最初の要素のindex
     return low;
+
+    // target未満の最大要素ののindex
+    // return high;
 };
 
 for(let i = 3; i < 3 + q; i++) {
