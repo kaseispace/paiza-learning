@@ -7,7 +7,7 @@ const lines = [
   '1 5',
   '2 3',
 ]
-const [_, M] = lines[0].split(' ').map(Number)
+const [, M] = lines[0].split(' ').map(Number)
 const tree = lines[1].split(' ').map(Number)
 const queries = lines.slice(3).map(line => line.split(' ').map(Number))
 
