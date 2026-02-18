@@ -1,75 +1,40 @@
-# Nuxt Minimal Starter
+# 📘 Paiza Learning
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Paizaのプログラミング問題を毎日解きながら、基礎力を継続的に伸ばすための学習リポジトリです。
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🎯 Purpose
 
-```bash
-# npm
-npm install
+- アルゴリズムと基礎的な実装力を身につける
+- 毎日コードを書く習慣を作る
 
-# pnpm
-pnpm install
+技術を試すためというより、**学習の積み重ねを記録する目的で運用しています。**
 
-# yarn
-yarn install
+---
 
-# bun
-bun install
-```
+## 📝 Contents
 
-## Development Server
+- 解いた問題のコードを随時追加
+- できるだけ読みやすい形で整理
 
-Start the development server on `http://localhost:3000`:
+---
 
-```bash
-# npm
-npm run dev
+## 💻 Language
 
-# pnpm
-pnpm dev
+- JavaScript / TypeScript
 
-# yarn
-yarn dev
+---
 
-# bun
-bun run dev
-```
+## 📌 Study Style
 
-## Production
+- まずは自力で考えて実装する
+- 詰まった場合はAIを活用しながら理解を深める
+- 理解した内容をもとに、自分のコードとして書き直すことを意識しています
+- 小さく分けて試しながら進めることで、原因を切り分けて学習しています
 
-Build the application for production:
+---
 
-```bash
-# npm
-npm run build
+## 🚀 Goal
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+継続的に問題を解きながら、アルゴリズム力と実装力を強化していきます。
